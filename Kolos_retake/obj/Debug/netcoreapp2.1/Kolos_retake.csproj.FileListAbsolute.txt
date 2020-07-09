@@ -1,0 +1,14 @@
+C:\Users\kbernatjanuszkiewicz\source\repos\Kolos_retake\Kolos_retake\bin\Debug\netcoreapp2.1\Kolos_retake.deps.json
+C:\Users\kbernatjanuszkiewicz\source\repos\Kolos_retake\Kolos_retake\bin\Debug\netcoreapp2.1\Kolos_retake.runtimeconfig.json
+C:\Users\kbernatjanuszkiewicz\source\repos\Kolos_retake\Kolos_retake\bin\Debug\netcoreapp2.1\Kolos_retake.runtimeconfig.dev.json
+C:\Users\kbernatjanuszkiewicz\source\repos\Kolos_retake\Kolos_retake\bin\Debug\netcoreapp2.1\Kolos_retake.dll
+C:\Users\kbernatjanuszkiewicz\source\repos\Kolos_retake\Kolos_retake\obj\Debug\netcoreapp2.1\Kolos_retake.csprojAssemblyReference.cache
+C:\Users\kbernatjanuszkiewicz\source\repos\Kolos_retake\Kolos_retake\obj\Debug\netcoreapp2.1\Kolos_retake.csproj.CoreCompileInputs.cache
+C:\Users\kbernatjanuszkiewicz\source\repos\Kolos_retake\Kolos_retake\obj\Debug\netcoreapp2.1\Kolos_retake.RazorAssemblyInfo.cache
+C:\Users\kbernatjanuszkiewicz\source\repos\Kolos_retake\Kolos_retake\obj\Debug\netcoreapp2.1\Kolos_retake.RazorAssemblyInfo.cs
+C:\Users\kbernatjanuszkiewicz\source\repos\Kolos_retake\Kolos_retake\obj\Debug\netcoreapp2.1\Kolos_retake.AssemblyInfoInputs.cache
+C:\Users\kbernatjanuszkiewicz\source\repos\Kolos_retake\Kolos_retake\obj\Debug\netcoreapp2.1\Kolos_retake.AssemblyInfo.cs
+C:\Users\kbernatjanuszkiewicz\source\repos\Kolos_retake\Kolos_retake\obj\Debug\netcoreapp2.1\Kolos_retake.RazorTargetAssemblyInfo.cache
+C:\Users\kbernatjanuszkiewicz\source\repos\Kolos_retake\Kolos_retake\bin\Debug\netcoreapp2.1\Kolos_retake.pdb
+C:\Users\kbernatjanuszkiewicz\source\repos\Kolos_retake\Kolos_retake\obj\Debug\netcoreapp2.1\Kolos_retake.dll
+C:\Users\kbernatjanuszkiewicz\source\repos\Kolos_retake\Kolos_retake\obj\Debug\netcoreapp2.1\Kolos_retake.pdb
