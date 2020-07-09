@@ -28,7 +28,7 @@ namespace Kolos_retake
         {
             services.AddDbContext<CustomDbContext>(options =>
             {
-                options.UseSqlServer("Data Source=localhost\\LOCALSQL;Initial Catalog=kolos22;User ID=sa;Password=Szuchow97!");
+                options.UseSqlServer("Data Source=localhost\\LOCALSQL;Initial Catalog=kolos22;User ID=sa;Password=<pass>");
             });
             services.AddScoped<ICustomDbService, SqlServerCustomDbService>();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);

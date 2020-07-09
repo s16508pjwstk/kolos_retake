@@ -9,6 +9,16 @@ namespace Kolos_retake.Models
 {
     public class Artist
     {
+        private int idCity;
+
+        public Artist(string firstName, string lastName, string nickName, int idCity, int idArtMovement)
+        {
+            FirstName = firstName;
+            LastName = lastName;
+            NickName = nickName;
+            this.idCity = idCity;
+            IdArtMovement = idArtMovement;
+        }
 
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
@@ -23,7 +33,7 @@ namespace Kolos_retake.Models
         public string LastName { get; set; }
 
         [MaxLength(100)]
-        public string NickName { get; set; } // nullable
+        public string NickName { get; set; }
 
         public DateTime DateOfBirth { get; set; }
 
@@ -32,11 +42,6 @@ namespace Kolos_retake.Models
         public virtual City City { get; set; }
         public virtual ICollection<ArtMovement> ArtMovements { get; set; }
         public virtual ICollection<Painting> CreatedPaintings { get; set; }
-        // public virtual ICollection<Painting> CoCreatedPaintings { get; set; }
-
-
-
-        //[MaxLength(100)]
-        //[ForeignKey("Subject")]
+        public virtual ICollection<Painting> CoCreatedPaintings { get; set; }
     }
 }

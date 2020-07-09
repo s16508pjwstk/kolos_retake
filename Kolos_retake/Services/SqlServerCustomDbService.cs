@@ -14,7 +14,8 @@ namespace Kolos_retake.Services
         {
             _dbContext = dbContext;
         }
-       
+
+        
 
         public Artist GetArtist(int IdArtist)
         {
@@ -23,11 +24,32 @@ namespace Kolos_retake.Services
                 .FirstOrDefault();
         }
 
+        public IEnumerable<Artist> GetArtists(string NickName)
+        {
+            return _dbContext.Artists
+                .Where(ffa => ffa.NickName == NickName)
+                .Select(ffa => ffa);
+        }
+
+        public ArtMovement GetArtMovement(int IdArtMovement)
+        {
+            return _dbContext.ArtMovements
+                .Where(a => a.IdArtMovement == IdArtMovement)
+                .FirstOrDefault();
+        }
+
         public IEnumerable<ArtMovement> GetArtMovements(int IdArtist)
         {
-            _dbContext.ArtMovements
+            return _dbContext.ArtMovements
                 .Where(ffa => ffa.IdMovementFounder == IdArtist)
                 .Select(ffa => ffa);
+        }
+
+        public City GetCity(int IdCity)
+        {
+            return _dbContext.Cities
+                .Where(a => a.IdCity == IdCity)
+                .FirstOrDefault();
         }
 
         public IEnumerable<Painting> GetPaintings(int IdArtist)
@@ -36,6 +58,16 @@ namespace Kolos_retake.Services
                 .Where(ffa => ffa.IdArtist == IdArtist)
                 .OrderByDescending(cp => cp.CreatedAt)
                 .Select(ffa => ffa);
+        }
+
+        public void SaveChanges()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Add<T>(T artist)
+        {
+            throw new NotImplementedException();
         }
     }
 }

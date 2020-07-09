@@ -20,6 +20,6 @@ namespace Kolos_retake.Models
         public DateTime CreatedAt;
 
         public virtual Artist Artist { get; set; }
-        // public virtual Artist CoAuthor { get; set; }
+        public virtual Artist CoAuthor { get; set; }
     }
 }

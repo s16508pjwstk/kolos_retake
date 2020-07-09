@@ -14,7 +14,7 @@ namespace Kolos_retake.Models
         public int IdCity { get; set; }
         public string Name { get; set; }
 
-        public int Population { get; set; } // nullable ??
+        public int? Population { get; set; } 
 
         public virtual ICollection<Artist> Artists { get; set; }
 
